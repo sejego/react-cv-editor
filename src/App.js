@@ -1,5 +1,5 @@
-import Education from "./components/Education";
 import Personal from "./components/Personal";
+import Education from "./components/Education"; 
 import Experience from "./components/Experience";
 
 function App() {
@@ -7,9 +7,9 @@ function App() {
     <div>
       <Personal />
       <div>-------</div>
-      <Experience/>
+      <Education />      
       <div>-------</div>
-      <Education/>
+      <Experience />
     </div>
   );
 }
